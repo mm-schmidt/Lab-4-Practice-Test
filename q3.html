@@ -8,10 +8,18 @@ Write an article using semantic markup, header, footer, main and section. In the
 Color the header with white text on a blue background, the footer with white text on a green background, the main portion with black text o a parchment colored background. 
 Make the nouns in the header and footer have a text weight of 600, while the rest of the text has a font-weight of 400.
     -->
-        
+        <style>
+            {font-weight: 400}
+            header {color: #FFFFFF;background-color: #005C80}
+            p {color: #000000;background-color: #E3CF8D}
+            footer {color: #FFFFFF;background-color: #068000}
+        </style>
 </head>
 
 <body>
+    <header>Old-fashioned Typesetting vs Desktop Publishing</header>
+    <p>Old-fashioned typesetting involved manually arranging individual letters and printing blocks to create physical pages, whereas desktop publishing lets users host text online, using HTML to control content and structure and CSS to control its appearance. Old-fashioned typesetting is time-consuming and difficult to change once the type is set. Instead, desktop publishing is easy to edit and collaborate on.</p>
+    <footer> <i>a short article on old-fashioned typesetting and desktop publishing.</i></footer>
 </body>
 
 </html>
